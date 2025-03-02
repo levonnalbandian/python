@@ -290,4 +290,52 @@
 #         x[dict1[i]] = i
 # print(dict1)
 
+# a = {
+#     'x':1,
+#     'n':2,
+# }
+# a.setdefault('b', 3)
+# print(a)
 
+# a = {
+#     'x':1,
+#     'n':2,
+# }
+# print(a.get('x'))
+
+# dict1 = {'a': 50, 'b': 700}
+# dict2 = {'c': 400, 'd': 600}
+# dict1.update(dict2)
+# print(dict1)
+
+# mydict = {'a':1,'b':2,'c':12}
+# result = 1
+# for i in mydict.values():
+#     result *= i
+# print(result)
+
+# a = {
+#     'student1':4,
+#     'student2':5,
+#     'student3':7,
+#     'student4':4,
+#     'student5':2,
+#     'student6':9,
+#     'student7':6,
+#     'student8':5,
+#     'student9':6,
+#     'student10':5
+# }
+# summ = sum(a.values()) / len(a)
+# for i in a:
+#     if a[i] > summ:
+#         print(i)
+# for i in a:
+#     if a[i] < summ:
+#         print(i)
+
+# print(a.get('student1'))
+# year = int(input('Enter the year: '))
+# month = int(input('Enter the month: '))
+# day = int(input('Enter the day: '))
+# def month(year, month, day):

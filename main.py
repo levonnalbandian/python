@@ -339,3 +339,32 @@
 # month = int(input('Enter the month: '))
 # day = int(input('Enter the day: '))
 # def month(year, month, day):
+# my_list = [1, 3, 5, 7, 9]
+# def binary_sear(my_list, item):
+#     low = 0
+#     high = len(my_list) - 1
+#     while low <= high:
+#         mid = (low + high) // 2
+#         guess = my_list[mid]
+#         if guess == item:
+#             return mid
+#         elif guess > item:
+#             high = mid - 1
+#         elif guess < item:
+#             low = mid + 1
+#     return None
+
+# print(binary_sear(my_list,7))
+
+# def side(short, long):
+#     sidel = (short ** 2 + long ** 2)** 0.5
+#     return sidel
+# print(side(3, 4))
+
+# def taxi(distance):
+#     price = 4 + (distance * 0.25) / 0.14
+#     return price
+#
+# print(taxi(4)
+
+Jupiter = 69,911
